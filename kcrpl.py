@@ -30,7 +30,7 @@ print("KcrPL: " + tag)
 
 if "/" in tag:
     time.sleep(1)
-    if tag == "/kcrplobjection" or tag == "/kcrplevidence": print("Spectra: <Phoenix Wright GIF>")
+    if tag == "/kcrplobjection" or tag == "/kcrplhmm" or tag == "/kcrplevidence": print("Spectra: <Phoenix Wright GIF>")
     elif tag == "/kcrplhaha": print("Spectra: <GIF>")
     else: print("Spectra: <Destiny GIF>")
 
