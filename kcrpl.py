@@ -1,3 +1,4 @@
+import platform
 import random
 import time
 
@@ -19,6 +20,11 @@ time.sleep(1)
 response = ["👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "/kcrplban", "/kcrplbaseball", "/kcrplclap", "/kcrplclap2", "/kcrplcry", "/kcrpldance", "/kcrpldance2", "/kcrpldance3", "/kcrpldance4", "/kcrpldance5", "/kcrplevidence", "/kcrplfacepalm", "/kcrplfuckyou", "/kcrplhaha", "/kcrplhmm", "/kcrpllarsenv", "/kcrplno", "/kcrplno2", "/kcrplshame", "/kcrplyes", "/kcrplyes2", "/kcrplyes3"]
 
 tag = random.choice(response)
+
+if platform.system() == "Windows":
+    if tag == "👌":
+        response = ["OK", ":ok_hand:"]
+        tag = random.choice(response)
 
 print("KcrPL: " + tag)
 
