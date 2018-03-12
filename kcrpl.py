@@ -23,7 +23,7 @@ tag = random.choice(response)
 
 if platform.system() == "Windows":
     if tag == "👌":
-        response = ["OK", ":ok_hand:"]
+        response = ["OK", "👌"]
         tag = random.choice(response)
 
 print("KcrPL: " + tag)
