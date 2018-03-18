@@ -17,7 +17,7 @@ print("Larsenv: " + random.choice(response))
 
 time.sleep(1)
 
-response = ["👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "/kcrplban", "/kcrplbaseball", "/kcrplclap", "/kcrplclap2", "/kcrplcry", "/kcrpldance", "/kcrpldance2", "/kcrpldance3", "/kcrpldance4", "/kcrpldance5", "/kcrplevidence", "/kcrplfacepalm", "/kcrplfuckyou", "/kcrplhaha", "/kcrplhmm", "/kcrpllarsenv", "/kcrplno", "/kcrplno2", "/kcrplshame", "/kcrplyes", "/kcrplyes2", "/kcrplyes3"]
+response = ["👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "/kcrplban", "/kcrplbaseball", "/kcrplclap", "/kcrplclap2", "/kcrplconfused", "/kcrplcry", "/kcrpldance", "/kcrpldance2", "/kcrpldance3", "/kcrpldance4", "/kcrpldance5", "/kcrplevidence", "/kcrplfacepalm", "/kcrplfuckyou", "/kcrplhaha", "/kcrplhmm", "/kcrpllarsenv", "/kcrplno", "/kcrplno2", "/kcrplshame", "/kcrplyes", "/kcrplyes2", "/kcrplyes3"]
 
 tag = random.choice(response)
 
@@ -31,7 +31,7 @@ print("KcrPL: " + tag)
 if "/" in tag:
     time.sleep(1)
     if tag == "/kcrplobjection" or tag == "/kcrplhmm" or tag == "/kcrplevidence": print("Spectra: <Phoenix Wright GIF>")
-    elif tag == "/kcrplhaha": print("Spectra: <GIF>")
+    elif tag == "/kcrplhaha" or tag == "/kcrplconfused": print("Spectra: <GIF>")
     else: print("Spectra: <Destiny GIF>")
 
 time.sleep(1)
