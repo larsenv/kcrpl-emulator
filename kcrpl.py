@@ -17,7 +17,7 @@ print("Larsenv: " + random.choice(response))
 
 time.sleep(1)
 
-response = ["👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "/kcrplban", "/kcrplbaseball", "/kcrplclap", "/kcrplclap2", "/kcrplconfused", "/kcrplcry", "/kcrpldance", "/kcrpldance2", "/kcrpldance3", "/kcrpldance4", "/kcrpldance5", "/kcrplevidence", "/kcrplfacepalm", "/kcrplfuckyou", "/kcrplhaha", "/kcrplhmm", "/kcrpllarsenv", "/kcrplno", "/kcrplno2", "/kcrplshame", "/kcrplyes", "/kcrplyes2", "/kcrplyes3"]
+response = ["👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "👌", "/kcrplban", "/kcrplbaseball", "/kcrplclap", "/kcrplclap2", "/kcrplclap22", "/kcrplconfused", "/kcrplcry", "/kcrpldance", "/kcrpldance2", "/kcrpldance3", "/kcrpldance4", "/kcrpldance5", "/kcrplevidence", "/kcrplfacepalm", "/kcrplfuckyou", "/kcrplhaha", "/kcrplhmm", "/kcrpllarsenv", "/kcrplno", "/kcrplno2", "/kcrplshame", "/kcrplyes", "/kcrplyes2", "/kcrplyes3"]
 
 tag = random.choice(response)
 
