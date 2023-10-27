@@ -7,13 +7,13 @@ print("KcrPL Emulator\n")
 tasks = ["Have any ideas why this guy is having issues?", "I'm gonna go take a shower.", "I'm going to sleep. Good night!", "Can I make a Wii emulator in Windows Batch?", "Make a support@riiconnect24.net email.", "Send me the new IOS patches please.", "I want to implement translation support in my batch script!", "Should I merge this PR?", "Help me I'm still getting 221001.", "I wanna be admin!", "Can you ban this spammer?", "Can I add more cities for Poland?"]
 tag_notag = ["@Larsenv ", ""]
 
-print("KcrPL: " + random.choice(tag_notag) + random.choice(tasks))
+print(f"KcrPL: {random.choice(tag_notag)}{random.choice(tasks)}")
 
 time.sleep(1)
 
 response = ["Yes", "No", "OK", "Could you stop bothering me?"]
 
-print("Larsenv: " + random.choice(response))
+print(f"Larsenv: {random.choice(response)}")
 
 time.sleep(1)
 
@@ -26,12 +26,12 @@ if platform.system() == "Windows":
         response = ["OK", ":ok_hand:"]
         tag = random.choice(response)
 
-print("KcrPL: " + tag)
+print(f"KcrPL: {tag}")
 
 if "/" in tag:
     time.sleep(1)
-    if tag == "/kcrplobjection" or tag == "/kcrplhmm" or tag == "/kcrplevidence": print("Spectra: <Phoenix Wright GIF>")
-    elif tag == "/kcrplhaha" or tag == "/kcrplconfused": print("Spectra: <GIF>")
+    if tag in ["/kcrplobjection", "/kcrplhmm", "/kcrplevidence"]: print("Spectra: <Phoenix Wright GIF>")
+    elif tag in ["/kcrplhaha", "/kcrplconfused"]: print("Spectra: <GIF>")
     else: print("Spectra: <Destiny GIF>")
 
 time.sleep(1)
